@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра Пары</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="center">Игра Пары</h1>
+        <div>
+            <h2>Суть игры:</h2>
+            <p>Игрок видит квадратное поле из карточек, расположенных "рубашкой" вверх, и находит пары одинаковых
+                карточек,
+                открывая их в произвольном порядке. На открытых карточках могут быть картинки, буквы, цифры, пиктограммы
+                и
+                что угодно ещё. Игрок открывает сначала одну карточку, затем вторую. Если обе открытые карточки
+                одинаковы,
+                они остаются открытыми до конца партии. В противном случае они переворачиваются обратно.</p>
+        </div>
+        <div class="panel__date">
+            <h2>Исходные данные:</h2>
+            <P>Кол-во карточек по вертикали/горизонтали:</P>
+            <div class="row">
+            <input id="cardCount" type="number" placeholder="Четное число от 2 до 10" value="4" class="center col-3">
+            <button onclick="startGame()" class="col-3">Начать игру</button></div>
+        </div>
+        <div id="panel__cards" class="panel__cards">
+
+        </div>
+        <div class="panel__win center">
+            <h2>Победа!</h2>
+            <button onclick="window.location.reload()">Новая игра</button>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

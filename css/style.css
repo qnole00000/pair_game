@@ -1,0 +1,45 @@
+
+.center {
+    text-align: center;
+}
+
+.panel__date {
+    margin-bottom: 20px;
+}
+
+.panel__win {
+    display: none;
+}
+.row {
+   justify-content: center;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.card {
+    margin-bottom: 10px;
+    border: 1px solid #343434;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1px;
+    font-weight: 600;
+    user-select: none;
+    justify-content: center;
+
+    background-color: #989951;
+    color: #989951;
+}
+
+.card__open{
+    background-color: #fffb00;
+    color: #000000;
+    
+    font-size: 14px;
+    pointer-events: none;
+}
+
+
+
